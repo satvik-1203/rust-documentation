@@ -1,5 +1,6 @@
 mod formatted_print;
 mod primitives;
+mod test;
 
 fn main() {
     // primitives::run();
@@ -7,4 +8,5 @@ fn main() {
     // primitives::tuples::run();
     // formatted_print::debug::run();
     primitives::array::run();
+    // test::run();
 }
